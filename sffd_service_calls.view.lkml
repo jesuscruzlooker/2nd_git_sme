@@ -6,7 +6,7 @@ view: sffd_service_calls {
     sql: ${TABLE}.address ;;
   }
 
-  dimension: als_unit {
+  dimension: als_unit888ee {
     type: yesno
     sql: ${TABLE}.als_unit ;;
   }
