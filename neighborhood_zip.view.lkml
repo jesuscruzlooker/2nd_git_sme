@@ -16,6 +16,12 @@ view: neighborhood_zip {
     sql: ${TABLE}.zipcode ;;
   }
 
+
+  dimension: zipcode2 {
+    type: zipcode
+    sql: ${TABLE}.zipcode ;;
+  }
+
   measure: count {
     type: count
     drill_fields: []
