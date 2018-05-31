@@ -11,6 +11,11 @@ view: sffd_service_calls {
     sql: ${TABLE}.als_unit ;;
   }
 
+  dimension: no {
+    type: number
+    sql:${TABLE}.no ;;
+  }
+
   dimension: als_unit_v4344 {
     type: yesno
     sql: ${TABLE}.als_unit ;;
